@@ -24,6 +24,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
     crossorigin="anonymous"></script>
+    
 
   <div id="top">
     <nav class="navbar navbar-expand-lg bg-light navbar-dark bg-dark navbar-fixed-top">
@@ -44,20 +45,8 @@
             <li class="nav-item">
               <a class="nav-link" href="static\symptoms.html">Symptoms</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
-                Process of detection
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="https://www.cancer.net/cancer-types/brain-tumor/diagnosis#:~:text=In%20general%2C%20diagnosing%20a%20brain,after%20a%20biopsy%20or%20surgery.">General Method</a></li>
-                <li><a class="dropdown-item" href="https://github.com/SohamRatnaparkhi/BrainTumorDetection/tree/main/Model_trainer">CNN model-code</a></li>
-                <li><a class="dropdown-item" href="https://www.analyticsvidhya.com/blog/2021/05/convolutional-neural-networks-cnn/">More about CNN</a></li>
-              </ul>
-            </li>
+            
           </ul>
- 
-
         </div>
       </div>
     </nav>
@@ -66,8 +55,7 @@
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
           aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-          aria-label="Slide 2"></button>
+
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
           aria-label="Slide 3"></button>
       </div>
@@ -77,20 +65,13 @@
           <div class="carousel-caption d-none d-md-block">
             <h1 class="c-heading carousel-heading">BRAIN TUMOR </h1>
             <h1 class="c-heading2 carousel-heading">DETECTION</h1>
-            <button type="button" class="btn btn-warning">Free</button>
-            <button type="button" class="btn btn-danger">Online</button>
-            <button type="button" class="btn btn-success">Open-source</button>
+            
           </div>
         </div>
         <div class="carousel-item" data-bs-interval="15000">
           <img src="static\images\cnn\cnn_model.jpg" class="d-block w-100" alt="..." height="700">
           <div class="carousel-caption d-none d-md-block">
-            <h1 class="c2 heading1 carousel-heading"> OVERVIEW OF OUR</h1>
-            <h1 class="c2 heading2 carousel-heading"><B>CNN</B> Model</h1>
-            <button type="button" class="btn btn-warning">Brain Tumor Detector</button>
-            <br><br>
-            <button type="button" class="btn btn-danger">Brain Tumor</button>
-            <button type="button" class="btn btn-success">No Brian Tumor</button>
+           
           </div>
         </div>
         <div class="carousel-item">
@@ -98,10 +79,7 @@
           <div class="carousel-caption d-none d-md-block">
             <h1 class="c-3 carousel-heading">BRAIN TUMOR </h1>
             <h1 class="c-3 carousel-heading">DETECTION</h1>
-            <button type="button" class="btn btn-warning">Accurate</button>
-            <br><br>
-            <button type="button" class="btn btn-danger">Free</button>
-            <button type="button" class="btn btn-success">Online</button>
+            
           </div>
 
         </div>
@@ -134,7 +112,8 @@
             <img src="static\images\cards\tumor_types.jpg" alt="" class="card-images">
 
             <div class="card-body">
-              <p class="card-content"><a href="https://www.mayoclinic.org/diseases-conditions/brain-tumor/symptoms-causes/syc-20350084#:~:text=A%20brain%20tumor%20is%20a,tumors%20are%20cancerous%20(malignant)." class="btn btn-outline-success" target = "_blank">What is Brain Tumor?</a></p>
+              <p class="card-content">
+                <a href="https://www.mayoclinic.org/diseases-conditions/brain-tumor/symptoms-causes/syc-20350084#:~:text=A%20brain%20tumor%20is%20a,tumors%20are%20cancerous%20(malignant)." class="btn btn-outline-success" target = "_blank">What is Brain Tumor?</a></p>
             </div>
           </div>
         </div>
@@ -161,54 +140,16 @@
       </div>
 
     </div>
-    <div id="mid2">
-      <br><br>
-      <h4>🛠 REQUIREMENTS:</h4>
-      <ul>
-        <li class="req">An MRI (Magnetic Resonance Imaging) tested image of brain. <b> We request you to upload the image in '.jpg' format only. </b></li>
-        <a href="https://kidshealth.org/en/parents/mri-brain.html">More information</a>
-      </ul>
-      <h4>🔍 HOW DOES THIS TOOL WORK ?</h4>
-      <ul>
-        <li class="req">This tool makes its predictions based on the predictions made by a Deep Learning model trained on over 3000 MRI scanned images (tumor + non-tumor).</li>
-        <li class="req">Model 1 check on around 25,000,000 parameters while Model 2 checks on around 8,000,000 parameters before predicting the result.</li>
-        <li class="req">Both the following models have an accuracy of around 97%.</li>
-      </ul>
-      <div class="alert alert-warning" role="alert">
-        Testing the presence of a brain tumor online cannot be a suitable substitute to a test by an internist or a neurologist! Anyways, this tool gives you a brief idea of what could potentially be a neurologist's diagnosis. 
-        <br>
-        Follow this link for
-        <a href="https://www.mayoclinic.org/diseases-conditions/brain-tumor/diagnosis-treatment/drc-20350088">more information</a> ⬅
-      </div>
-    </div>
+   
     <div id="model1">
       <br><br>
       
       <div class="row row-cols-1 row-cols-md-2 mb-2  text-left forms-model">
+        
         <div class="col">
           <div class="card mb-4 rounded-3 shadow-sm">
             <div class="card-header py-3">
               <h4 class="my-0 fw-normal text-center">MODEL 1</h4>
-            </div>
-            <div class="card-body">
-              
-              <form method="POST" action="{{url_for('predictor1')}}" enctype="multipart/form-data"> 
-                <label>Name:</label>
-                <input type="text" name="name" class="form-name" required><br>
-                <label>Image:</label>
-                <input type="file" name='image' class='btn' required><br><br>
-                
-                <input type="submit" class="btn btn-warning text-center">
-              </form>  
-              <br>
-              <a href="/" class="btn btn-outline-danger" tabindex="-1" role="button" aria-disabled="true">Reset</a>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card mb-4 rounded-3 shadow-sm">
-            <div class="card-header py-3">
-              <h4 class="my-0 fw-normal text-center">MODEL 2</h4>
             </div>
             <div class="card-body">
               
@@ -217,51 +158,18 @@
                 <input type="text" name="name" class="form-name" required><br>
                 <label>Image:</label>
                 <input type="file" name='image' class='btn' required><br><br>
-                
+                <div class="footer">
                 <input type="submit" class="btn btn-warning text-center">
+                <a href="/" class="btn btn-outline-danger" tabindex="-1" role="button" aria-disabled="true">Reset</a>
+                </div>
               </form>  
-              <br>
-              <a href="/" class="btn btn-outline-danger" tabindex="-1" role="button" aria-disabled="true">Reset</a>
+             
+              
             </div>
           </div>
         </div>
       </div>
-     
-    </div>
-    <div id="end">
-      <br><br>
-      <br><br>
-      <footer class="bg-dark text-center text-white">
-        <!-- Grid container -->
-        <div class="container p-4">
-          <!-- Section: Social media -->
-          <section class="mb-4">
-            <a href="https://linkfree.eddiehub.io/SohamRatnaparkhi" target = "_blank">CONTACT ME!</a>
-            <!-- Twitter -->
-          </section>
-          <!-- Section: Social media -->
-      
-          <!-- Section: Form -->
-          
-          <!-- Section: Text -->
-          <section class="mb-4">
-            <p>
-              I am an undergraduate Computer science and Engineering student at Vishwakarma Institute of Technology, Pune.
-            </p>
-          </section>
-          <!-- Section: Text -->
-      
-          
-      
-        <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-          © 
-          <a class="text-white" href="https://sohamratnaparkhi.github.io/PersonalWebsite_SohamR/">Soham Ratnaparkhi</a>
-        </div>
-        <!-- Copyright -->
-      </footer>
-      <!-- Footer -->
-    </div>
+   
 </body>
 
 </html>

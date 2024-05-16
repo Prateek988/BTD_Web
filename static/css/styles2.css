@@ -7,6 +7,10 @@ html {
     /* width: 100%; */
 }
 
+.col{
+    display: flex;
+    justify-content: center;
+}
 .heading {
     position: absolute;
     margin-left: 26%;
@@ -69,6 +73,7 @@ html {
     }
 }
 
+
 .content-image {
     text-align: center;
     width: 200px;
@@ -80,7 +85,6 @@ html {
     overflow: hidden;
     width: 100%;
     background: #F5EDDC;
-    /* padding: 50px; */
     margin-right: 20px;
     margin-left: 20px;
 }

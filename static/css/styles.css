@@ -13,6 +13,8 @@
     margin-left: 10%;
     font-size: 300%;
 } 
+
+
 .clr{
     background-color: #f5f5f5;
 }
@@ -64,9 +66,10 @@
     margin-left: 10%;
 }
 
-/* .forms-model1 {
-    margin-right: 5%;
-} */
+.row{
+    justify-content: center;
+    display: flex;
+}
 .description{
     display: inline-block;
     color:#1D3549
@@ -128,3 +131,6 @@ button {
     max-width: 100%;
     overflow-x: hidden;
 } */
+#model1{
+    justify-content: center;
+}
